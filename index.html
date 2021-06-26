@@ -17,7 +17,7 @@
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
-        <span> 110%</span>
+        <span>100%</span>
         <i class="fas fa-battery-full"></i>
         <i class="fas fa-bolt"></i>
       </div>
@@ -29,9 +29,20 @@
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or Phone number" />
-      <input type="password" placeholder="Password" />
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        required
+        name="username"
+        type="text"
+        placeholder="Email or Phone number"
+      />
+      <input
+        required
+        minlength="7"
+        name="password"
+        type="password"
+        placeholder="Password"
+      />
       <input type="submit" value="Log in" />
       <a href="https://kakao.com" target="_block"
         >Find Kokoa Account or Password</a
@@ -42,5 +53,6 @@
       src="https://kit.fontawesome.com/e6d0d39364.js"
       crossorigin="anonymous"
     ></script>
+    <!-- From FontAwsome -->
   </body>
 </html>
