@@ -1,3 +1,3 @@
-# Kokoa Clone 2021 Update
+# Kokoa Clone 2021
 
-HTML & CSS are so much fun!
+IT'S MY FIRST WEB PAGE!
