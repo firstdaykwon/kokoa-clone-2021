@@ -44,3 +44,12 @@
   margin-bottom: 10px;
   display: block;
 }
+.user-component__column img {
+  display: flex;
+}
+.user-component__subtitle i {
+  color: tomato;
+}
+.user-component__column-icon {
+  color: var(--icon-color);
+}
