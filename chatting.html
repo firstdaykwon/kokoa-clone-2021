@@ -4,10 +4,10 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Settings - Kokoa Clone</title>
+    <title>Chatting - Kokoa Clone</title>
   </head>
-  <body>
-    <div class="status-bar">
+  <body id="chat-screen">
+    <div class="status-bar status-bar__chatting">
       <div class="status-bar__column">
         <span>KT</span>
         <i class="fas fa-wifi"></i>
@@ -26,38 +26,16 @@
         <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
       </div>
       <div class="alt-header__column">
-        <h1 class="alt-header__title">Nicolás Serrano</h1>
+        <h1 class="alt-header__title">Nicolás</h1>
       </div>
       <div class="alt-header__column">
-        <i class="fas fa-search fa-lg"></i>
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
       </div>
     </header>
-    <main class="main-screen"></main>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><i class="fas fa-search fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html"
-            ><i class="fas fa-ellipsis-h fa-2x"></i
-          ></a>
-        </li>
-      </ul>
-    </nav>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+    </main>
     <script
       src="https://kit.fontawesome.com/e6d0d39364.js"
       crossorigin="anonymous"
