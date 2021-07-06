@@ -35,7 +35,40 @@
     </header>
     <main class="main-screen main-chat">
       <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+      <div class="message-row">
+        <img
+          src="https://media-exp1.licdn.com/dms/image/C5603AQH9phekan-TPA/profile-displayphoto-shrink_200_200/0/1516471279976?e=1625702400&v=beta&t=ktLxOPFQxYN6AB2wys7tECRfcknnBRkMc3ipFkV2HPM"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Nicolás</span>
+          <div class="message__info">
+            <span class="message__buble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__buble">Sup?</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
     </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="write a message..." />
+        <i class="far fa-grin fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
     <script
       src="https://kit.fontawesome.com/e6d0d39364.js"
       crossorigin="anonymous"
