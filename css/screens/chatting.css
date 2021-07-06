@@ -20,10 +20,108 @@
   border-radius: 25px;
   justify-content: center;
   font-size: 15px;
+  margin-bottom: 25px;
 }
 .main-chat {
-  margin-top: 120px;
+  margin-top: 110px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.message-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+}
+.message-row img {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.message__author {
+  margin-bottom: 5px;
+  display: block;
+}
+.message__buble {
+  background-color: white;
+  padding: 13px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+.message__time,
+.message__author {
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.message-row--own {
+  justify-content: flex-end;
+}
+.message-row--own .message__buble {
+  background-color: var(--yellow);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 15px;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+.message-row--own .message__info {
+  flex-direction: row-reverse;
+}
+.reply {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.reply .reply__column:first-child {
+  width: 10%;
+}
+.reply .reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+.reply input {
+  padding: 10px;
+  width: 100%;
+  border: var(--main-border);
+  border-radius: 20px;
+}
+.reply i {
+  opacity: 0.5;
+}
+.reply__column:last-child > i,
+.reply__column:last-child > button {
+  position: absolute;
+  right: -18px;
+  top: 4px;
+}
+.reply__column:last-child > i {
+  right: 20px;
+  top: 12px;
+}
+.reply__column button {
+  background-color: var(--yellow);
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.reply__column button i {
+  opacity: 2;
+}
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
 }
