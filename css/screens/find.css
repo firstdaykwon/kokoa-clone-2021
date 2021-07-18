@@ -26,6 +26,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.open-post__column {
+  margin-bottom: 60px;
+}
 .open-post__title {
   font-size: 20px;
   font-weight: 600;
@@ -96,5 +99,5 @@
 }
 .open-post__heart-count .fa-heart:hover {
   will-change: transform;
-  animation: heartbeat 1s linear infinite;
+  animation: heartbeat 0.5s linear infinite;
 }

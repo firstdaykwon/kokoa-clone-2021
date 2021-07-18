@@ -1,14 +1,16 @@
+/*
 #no-mobile {
   position: absolute;
   z-index: 99;
-  height: 100vh;
+  height: 150vh;
   width: 100vw;
-  background-color: var(--yellow);
+  background-color: #10103b;
   display: flex;
   top: 0;
   justify-content: center;
   align-items: center;
   font-size: 32px;
+  color: #0594bc;
 }
 @media screen and (max-width: 645px) {
   #no-mobile {

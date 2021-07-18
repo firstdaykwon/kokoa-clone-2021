@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
 @import "variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 /* Components */
 @import "components/status-bar.css";
@@ -21,9 +22,10 @@
 @import "screens/chatting.css";
 
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #2e363e;
-  height: 150vh;
+  font-family: "Press Start 2P", cursive;
+  color: #0594bc;
+  background-color: black;
+  height: auto;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
