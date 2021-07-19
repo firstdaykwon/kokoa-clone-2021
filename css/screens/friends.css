@@ -1,9 +1,9 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #fafafa;
+  background-color: lightblue;
   padding: 15px 0px;
-  font-size: 18px;
+  font-size: 1.2em;
   margin-bottom: 10px;
   margin-top: -20px;
 }

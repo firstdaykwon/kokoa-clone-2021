@@ -18,6 +18,7 @@
 .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .status-bar__column:last-child {
   display: flex;
@@ -30,4 +31,8 @@
 }
 .status-bar__column .fa-bolt {
   padding-bottom: 4.5px;
+}
+.status-bar__column .fa-wifi {
+  position: relative;
+  bottom: 3px;
 }

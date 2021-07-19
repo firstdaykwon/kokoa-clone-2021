@@ -1,7 +1,7 @@
 .settings__setting {
   padding: 20px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  font-size: 18px;
+  font-size: 1.3em;
   display: flex;
   align-items: center;
 }

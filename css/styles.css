@@ -26,6 +26,7 @@ body {
   color: #0594bc;
   background-color: black;
   height: auto;
+  font-size: 0.8em;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);

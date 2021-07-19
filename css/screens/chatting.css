@@ -11,7 +11,8 @@
   box-sizing: border-box;
 }
 #chat-screen .status-bar__chatting {
-  z-index: 2;
+  z-index: 99;
+  background-color: black;
 }
 .chat__timestamp {
   color: white;
@@ -19,7 +20,7 @@
   padding: 13px;
   border-radius: 25px;
   justify-content: center;
-  font-size: 15px;
+  font-size: 1em;
   margin-bottom: 25px;
 }
 
@@ -53,7 +54,7 @@
   margin-right: 10px;
 }
 .message__author {
-  margin-bottom: 5px;
+  margin-bottom: 1em;
   display: block;
 }
 .message__buble {
@@ -62,7 +63,7 @@
   border-radius: 15px;
   border-top-left-radius: 0px;
   margin-right: 5px;
-  font-size: 20px;
+  font-size: 1.2em;
 }
 .message__info {
   display: flex;
@@ -71,7 +72,7 @@
 .message__time,
 .message__author {
   opacity: 0.8;
-  font-size: 18px;
+  font-size: 1em;
 }
 
 .message-row--own {
@@ -115,7 +116,7 @@
   transition: all 0.3s ease-in-out;
 }
 .reply i {
-  opacity: 0.5;
+  opacity: 1;
 }
 .reply__column:last-child > i,
 .reply__column:last-child > button {
@@ -128,14 +129,15 @@
   top: 12px;
 }
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: var(--main-color);
   border: none;
   width: 30px;
   height: 30px;
   border-radius: 15px;
 }
 .reply__column button i {
-  opacity: 2;
+  opacity: 1;
+  color: white;
 }
 .reply__column button:focus,
 .reply__column button:active {

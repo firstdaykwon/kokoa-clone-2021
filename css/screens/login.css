@@ -12,7 +12,7 @@
 }
 .welcome-header__text {
   width: 65%;
-  opacity: 0.7;
+  opacity: 0.8;
   margin-bottom: 100px;
 }
 #login-form {
@@ -24,6 +24,9 @@
   border: none;
   font-size: 18px;
   margin-bottom: 25px;
+  background-color: lightcyan;
+  border-radius: 10px;
+  padding: 5px 15px;
 }
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -33,11 +36,11 @@
   opacity: 0.4;
 }
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(blue);
 }
 #login-form input[type="submit"] {
   border-radius: 5px;
-  background-color: var(--yellow);
+  background-color: lightblue;
   cursor: pointer;
   padding: 15px 0px;
 }
